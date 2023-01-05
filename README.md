@@ -20,6 +20,12 @@ python manage.py runserver
 
 Backend will be hosted on http://localhost:8000/ by default
 
+You may create a superuser to access django admin panel at: http://localhost:8000/admin
+
+- To create a superuser, use manage.py like so: `python manage.py createsuperuser`
+- Or, a superuser has already been created with following credentials: `username: admin | password: adminpassword`
+
+
 ### Frontend (Side-By-Side, In another terminal session)
 
 - make sure you have node and npm installed
